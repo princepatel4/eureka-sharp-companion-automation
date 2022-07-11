@@ -1,0 +1,1360 @@
+2022-07-11 19:05:18:211 [Appium] Welcome to Appium v1.22.3
+2022-07-11 19:05:18:211 [Appium] Non-default server args:
+2022-07-11 19:05:18:212 [Appium]   basePath: /
+2022-07-11 19:05:18:212 [Appium]   logFile: ./appium.log
+2022-07-11 19:05:18:212 [Appium]   relaxedSecurityEnabled: true
+2022-07-11 19:05:18:232 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2022-07-11 19:05:19:266 [HTTP] --> POST /session
+2022-07-11 19:05:19:267 [HTTP] {"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appium:appPackage":"com.Sharp.Companion","appium:appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","appium:newCommandTimeout":240},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appium:appPackage":"com.Sharp.Companion","appium:appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","appium:newCommandTimeout":240}}
+2022-07-11 19:05:19:268 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appium:appPackage":"com.Sharp.Companion","appium:appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","appium:newCommandTimeout":240},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appium:appPackage":"com.Sharp.Companion","appium:appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","appium:newCommandTimeout":240},"firstMatch":[{}]}]
+2022-07-11 19:05:19:269 [BaseDriver] Event 'newSessionRequested' logged at 1657566319268 (15:05:19 GMT-0400 (Eastern Daylight Saving Time))
+2022-07-11 19:05:19:447 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2022-07-11 19:05:19:448 [Appium] Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+2022-07-11 19:05:19:449 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-07-11 19:05:19:449 [BaseDriver] Creating session with W3C capabilities: {
+2022-07-11 19:05:19:450 [BaseDriver]   "alwaysMatch": {
+2022-07-11 19:05:19:450 [BaseDriver]     "platformName": "Android",
+2022-07-11 19:05:19:450 [BaseDriver]     "appium:deviceName": "emulator-5554",
+2022-07-11 19:05:19:450 [BaseDriver]     "appium:platformVersion": "11.0",
+2022-07-11 19:05:19:450 [BaseDriver]     "appium:orientation": "PORTRAIT",
+2022-07-11 19:05:19:450 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2022-07-11 19:05:19:450 [BaseDriver]     "appium:app": "D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk",
+2022-07-11 19:05:19:450 [BaseDriver]     "appium:appPackage": "com.Sharp.Companion",
+2022-07-11 19:05:19:450 [BaseDriver]     "appium:appWaitActivity": "com.Sharp.Companion.ui.activity.SplashScreenActivity",
+2022-07-11 19:05:19:450 [BaseDriver]     "appium:newCommandTimeout": 240
+2022-07-11 19:05:19:450 [BaseDriver]   },
+2022-07-11 19:05:19:451 [BaseDriver]   "firstMatch": [
+2022-07-11 19:05:19:451 [BaseDriver]     {}
+2022-07-11 19:05:19:451 [BaseDriver]   ]
+2022-07-11 19:05:19:451 [BaseDriver] }
+2022-07-11 19:05:19:456 [BaseDriver] Session created with session id: 906bea32-00be-4fc7-85d2-573cb0241b67
+2022-07-11 19:05:19:458 [BaseDriver] Using local app 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\apps\app-debug.apk'
+2022-07-11 19:05:19:458 [UiAutomator2] Checking whether app is actually present
+2022-07-11 19:05:19:476 [ADB] Found 7 'build-tools' folders under 'C:\Users\prince\AppData\Local\Android\Sdk' (newest first):
+2022-07-11 19:05:19:476 [ADB]     C:/Users/prince/AppData/Local/Android/Sdk/build-tools/30.0.3
+2022-07-11 19:05:19:476 [ADB]     C:/Users/prince/AppData/Local/Android/Sdk/build-tools/30.0.2
+2022-07-11 19:05:19:476 [ADB]     C:/Users/prince/AppData/Local/Android/Sdk/build-tools/30.0.1
+2022-07-11 19:05:19:476 [ADB]     C:/Users/prince/AppData/Local/Android/Sdk/build-tools/29.0.2
+2022-07-11 19:05:19:476 [ADB]     C:/Users/prince/AppData/Local/Android/Sdk/build-tools/29.0.0
+2022-07-11 19:05:19:477 [ADB]     C:/Users/prince/AppData/Local/Android/Sdk/build-tools/28.0.3
+2022-07-11 19:05:19:477 [ADB]     C:/Users/prince/AppData/Local/Android/Sdk/build-tools/27.0.3
+2022-07-11 19:05:19:483 [ADB] Using 'adb.exe' from 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-07-11 19:05:19:485 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-07-11 19:05:19:514 [AndroidDriver] Retrieving device list
+2022-07-11 19:05:19:514 [ADB] Trying to find a connected android device
+2022-07-11 19:05:19:515 [ADB] Getting connected devices
+2022-07-11 19:05:19:540 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2022-07-11 19:05:19:540 [AndroidDriver] Looking for a device with Android '11.0.0'
+2022-07-11 19:05:19:540 [ADB] Setting device id to emulator-5554
+2022-07-11 19:05:19:541 [ADB] Getting device platform version
+2022-07-11 19:05:19:541 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2022-07-11 19:05:19:575 [ADB] Current device property 'ro.build.version.release': 11
+2022-07-11 19:05:19:576 [AndroidDriver] Using device: emulator-5554
+2022-07-11 19:05:19:577 [ADB] Using 'adb.exe' from 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-07-11 19:05:19:577 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-07-11 19:05:19:602 [ADB] Setting device id to emulator-5554
+2022-07-11 19:05:19:602 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2022-07-11 19:05:19:634 [ADB] Current device property 'ro.build.version.sdk': 30
+2022-07-11 19:05:19:635 [ADB] Getting device platform version
+2022-07-11 19:05:19:635 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2022-07-11 19:05:19:667 [ADB] Current device property 'ro.build.version.release': 11
+2022-07-11 19:05:19:667 [ADB] Device API level: 30
+2022-07-11 19:05:19:667 [UiAutomator2] Relaxing hidden api policy
+2022-07-11 19:05:19:667 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2022-07-11 19:05:19:725 [AndroidDriver] Parsing package and activity from app manifest
+2022-07-11 19:05:19:752 [ADB] Package name: 'com.Sharp.Companion'
+2022-07-11 19:05:19:752 [ADB] Main activity name: 'com.Sharp.Companion.ui.activity.SplashScreenActivity'
+2022-07-11 19:05:19:752 [AndroidDriver] Parsed package and activity are: com.Sharp.Companion/com.Sharp.Companion.ui.activity.SplashScreenActivity
+2022-07-11 19:05:19:753 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+2022-07-11 19:05:19:779 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+2022-07-11 19:05:19:809 [AndroidDriver] Pushing settings apk to device...
+2022-07-11 19:05:19:809 [ADB] Getting install status for io.appium.settings
+2022-07-11 19:05:19:810 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2022-07-11 19:05:19:917 [ADB] 'io.appium.settings' is installed
+2022-07-11 19:05:19:917 [ADB] Getting package info for 'io.appium.settings'
+2022-07-11 19:05:19:917 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2022-07-11 19:05:19:962 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+2022-07-11 19:05:19:963 [ADB] There is no need to install/upgrade 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2022-07-11 19:05:19:963 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-07-11 19:05:19:963 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2022-07-11 19:05:20:004 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-07-11 19:05:20:047 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2022-07-11 19:05:20:047 [Logcat] Starting logs capture with command: C:\\Users\\prince\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 logcat -v threadtime
+2022-07-11 19:05:20:087 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 8211
+2022-07-11 19:05:20:088 [ADB] Forwarding system: 8211 to device: 6790
+2022-07-11 19:05:20:088 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8211 tcp:6790'
+2022-07-11 19:05:20:130 [ADB] Getting install status for io.appium.uiautomator2.server
+2022-07-11 19:05:20:130 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2022-07-11 19:05:20:175 [ADB] 'io.appium.uiautomator2.server' is installed
+2022-07-11 19:05:20:175 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2022-07-11 19:05:20:175 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2022-07-11 19:05:20:362 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.27.0' >= '4.27.0')
+2022-07-11 19:05:20:362 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2022-07-11 19:05:20:362 [ADB] Checking app cert for D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk
+2022-07-11 19:05:20:378 [ADB] Using 'apksigner.jar' from 'C:\Users\prince\AppData\Local\Android\Sdk\build-tools\30.0.3\lib\apksigner.jar'
+2022-07-11 19:05:20:379 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk-18.0.1.1\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\prince\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.3\\lib\\apksigner.jar verify --print-certs 'D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.27.0.apk'
+2022-07-11 19:05:20:875 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2022-07-11 19:05:20:875 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2022-07-11 19:05:20:875 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2022-07-11 19:05:20:875 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2022-07-11 19:05:20:875 [ADB] 
+2022-07-11 19:05:20:876 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+2022-07-11 19:05:20:876 [ADB] 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+2022-07-11 19:05:20:876 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2022-07-11 19:05:20:876 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+2022-07-11 19:05:20:913 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2022-07-11 19:05:20:914 [ADB] Checking app cert for D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2022-07-11 19:05:20:916 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk-18.0.1.1\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\prince\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.3\\lib\\apksigner.jar verify --print-certs 'D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk'
+2022-07-11 19:05:21:157 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2022-07-11 19:05:21:157 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2022-07-11 19:05:21:157 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2022-07-11 19:05:21:157 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2022-07-11 19:05:21:157 [ADB] 
+2022-07-11 19:05:21:157 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2022-07-11 19:05:21:157 [ADB] 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2022-07-11 19:05:21:157 [UiAutomator2] Server packages are not going to be (re)installed
+2022-07-11 19:05:21:159 [UiAutomator2] Waiting up to 30000ms for services to be available
+2022-07-11 19:05:21:159 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
+2022-07-11 19:05:21:198 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2022-07-11 19:05:21:199 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2022-07-11 19:05:21:200 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2022-07-11 19:05:21:200 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2022-07-11 19:05:21:245 [ADB] Checking app cert for D:\Workspace\Tido\Android QA Automation\Android UI Testing\apps\app-debug.apk
+2022-07-11 19:05:21:336 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk-18.0.1.1\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\prince\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.3\\lib\\apksigner.jar verify --print-certs 'D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk'
+2022-07-11 19:05:21:887 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2022-07-11 19:05:21:887 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2022-07-11 19:05:21:887 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2022-07-11 19:05:21:887 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2022-07-11 19:05:21:887 [ADB] 
+2022-07-11 19:05:21:887 [ADB] sha256 hash did match for 'app-debug.apk'
+2022-07-11 19:05:21:887 [ADB] 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\apps\app-debug.apk' is signed with the default certificate
+2022-07-11 19:05:21:888 [ADB] Getting install status for com.Sharp.Companion
+2022-07-11 19:05:21:888 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.Sharp.Companion'
+2022-07-11 19:05:21:925 [ADB] 'com.Sharp.Companion' is installed
+2022-07-11 19:05:21:925 [ADB] Getting package info for 'com.Sharp.Companion'
+2022-07-11 19:05:21:925 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.Sharp.Companion'
+2022-07-11 19:05:21:976 [ADB] The version name of the installed 'com.Sharp.Companion' is greater or equal to the application version name ('2.0.1' >= '2.0.1')
+2022-07-11 19:05:21:977 [ADB] There is no need to install/upgrade 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\apps\app-debug.apk'
+2022-07-11 19:05:21:977 [AndroidDriver] Performing fast reset on 'com.Sharp.Companion'
+2022-07-11 19:05:21:977 [ADB] Getting install status for com.Sharp.Companion
+2022-07-11 19:05:21:977 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.Sharp.Companion'
+2022-07-11 19:05:22:012 [ADB] 'com.Sharp.Companion' is installed
+2022-07-11 19:05:22:013 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.Sharp.Companion'
+2022-07-11 19:05:22:060 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm clear com.Sharp.Companion'
+2022-07-11 19:05:22:112 [AndroidDriver] Performed fast reset on the installed 'com.Sharp.Companion' application (stop and clear)
+2022-07-11 19:05:22:113 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2022-07-11 19:05:22:130 [UiAutomator2] The following obsolete sessions are still running: ["92566bde-6863-4489-b66f-1491a24a5313"]
+2022-07-11 19:05:22:131 [UiAutomator2] Cleaning up 1 obsolete session
+2022-07-11 19:05:23:149 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2022-07-11 19:05:23:192 [UiAutomator2] Starting UIAutomator2 server 4.27.0
+2022-07-11 19:05:23:192 [UiAutomator2] Using UIAutomator2 server from 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2022-07-11 19:05:23:192 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2022-07-11 19:05:23:193 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2022-07-11 19:05:23:199 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-11 19:05:23:200 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8211/wd/hub/status] with no body
+2022-07-11 19:05:23:203 [WD Proxy] socket hang up
+2022-07-11 19:05:23:680 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2022-07-11 19:05:24:205 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-11 19:05:24:205 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8211/wd/hub/status] with no body
+2022-07-11 19:05:24:209 [WD Proxy] socket hang up
+2022-07-11 19:05:25:220 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-11 19:05:25:220 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8211/wd/hub/status] with no body
+2022-07-11 19:05:25:291 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2022-07-11 19:05:25:292 [UiAutomator2] The initialization of the instrumentation process took 2099ms
+2022-07-11 19:05:25:292 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-07-11 19:05:25:292 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8211/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11.0","orientation":"PORTRAIT","automationName":"UiAutomator2","app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appPackage":"com.Sharp.Companion","appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","newCommandTimeout":240},"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11.0","orientation":"PORTRAIT","automationName":"UiAutomator2","app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appPackage":"com.Sharp.Companion","appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","newCommandTimeout":240,"deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
+2022-07-11 19:05:25:314 [WD Proxy] Got response with status 200: {"sessionId":"1fbfd6fa-69bd-44c1-9f33-41973d1b8915","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11.0","orientation":"PORTRAIT","automationName":"UiAutomator2","app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appPackage":"com.Sharp.Companion","appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","newCommandTimeout":240},"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11.0","orientation":"PORTRAIT","automationName":"UiAutomator2","app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appPackage":"com.Sharp.Companion","appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","newCommandTimeout":240,"de...
+2022-07-11 19:05:25:315 [WD Proxy] Determined the downstream protocol as 'W3C'
+2022-07-11 19:05:25:325 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8211/wd/hub/session/1fbfd6fa-69bd-44c1-9f33-41973d1b8915/appium/device/info] with no body
+2022-07-11 19:05:25:346 [WD Proxy] Got response with status 200: {"sessionId":"1fbfd6fa-69bd-44c1-9f33-41973d1b8915","value":{"androidId":"83782952b21e3b0d","apiVersion":"30","bluetooth":{"state":"ON"},"brand":"google","carrierName":"Android","displayDensity":400,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone_x86_arm","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_DUN,NET_CAPABILITY_FOTA,NET_CAPABILITY_IMS,NET_CAPABILITY_CBS,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"epc.tmobile.com","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"},{"capabilitie...
+2022-07-11 19:05:25:346 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+2022-07-11 19:05:25:404 [AndroidDriver] Screen already unlocked, doing nothing
+2022-07-11 19:05:25:404 [UiAutomator2] Starting 'com.Sharp.Companion/com.Sharp.Companion.ui.activity.SplashScreenActivity and waiting for 'com.Sharp.Companion/com.Sharp.Companion.ui.activity.SplashScreenActivity'
+2022-07-11 19:05:25:405 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.Sharp.Companion/com.Sharp.Companion.ui.activity.SplashScreenActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2022-07-11 19:05:27:266 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.Sharp.Companion' and activity: 'com.Sharp.Companion.ui.activity.SplashScreenActivity' to be focused
+2022-07-11 19:05:27:267 [ADB] Possible activities, to be checked: 'com.Sharp.Companion.ui.activity.SplashScreenActivity', 'com.Sharp.Companion.com.Sharp.Companion.ui.activity.SplashScreenActivity'
+2022-07-11 19:05:27:267 [ADB] Getting focused package and activity
+2022-07-11 19:05:27:267 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:27:395 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:27:395 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:27:908 [ADB] Getting focused package and activity
+2022-07-11 19:05:27:908 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:27:987 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:27:987 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:28:495 [ADB] Getting focused package and activity
+2022-07-11 19:05:28:495 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:28:545 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:28:545 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:29:047 [ADB] Getting focused package and activity
+2022-07-11 19:05:29:047 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:29:099 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:29:099 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:29:607 [ADB] Getting focused package and activity
+2022-07-11 19:05:29:607 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:29:652 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:29:653 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:30:155 [ADB] Getting focused package and activity
+2022-07-11 19:05:30:155 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:30:224 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:30:224 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:30:732 [ADB] Getting focused package and activity
+2022-07-11 19:05:30:732 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:30:778 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:30:778 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:31:292 [ADB] Getting focused package and activity
+2022-07-11 19:05:31:292 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:31:339 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:31:339 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:31:853 [ADB] Getting focused package and activity
+2022-07-11 19:05:31:853 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:31:903 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:31:903 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:32:412 [ADB] Getting focused package and activity
+2022-07-11 19:05:32:412 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:32:457 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:32:457 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:32:959 [ADB] Getting focused package and activity
+2022-07-11 19:05:32:959 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:33:004 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:33:004 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:33:519 [ADB] Getting focused package and activity
+2022-07-11 19:05:33:519 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:33:568 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:33:568 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:34:081 [ADB] Getting focused package and activity
+2022-07-11 19:05:34:081 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:34:138 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:34:138 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:34:643 [ADB] Getting focused package and activity
+2022-07-11 19:05:34:643 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:34:690 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:34:690 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:35:200 [ADB] Getting focused package and activity
+2022-07-11 19:05:35:200 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:35:246 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:35:246 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:35:762 [ADB] Getting focused package and activity
+2022-07-11 19:05:35:762 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:35:819 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:35:819 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:36:320 [ADB] Getting focused package and activity
+2022-07-11 19:05:36:320 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:36:368 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:36:368 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:36:875 [ADB] Getting focused package and activity
+2022-07-11 19:05:36:875 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:36:918 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:36:919 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:37:420 [ADB] Getting focused package and activity
+2022-07-11 19:05:37:421 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:37:465 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:37:465 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:37:980 [ADB] Getting focused package and activity
+2022-07-11 19:05:37:981 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:38:032 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:38:032 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:38:541 [ADB] Getting focused package and activity
+2022-07-11 19:05:38:542 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:38:590 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:38:591 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:39:099 [ADB] Getting focused package and activity
+2022-07-11 19:05:39:099 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:39:148 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:39:148 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:39:661 [ADB] Getting focused package and activity
+2022-07-11 19:05:39:661 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:39:708 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:39:708 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:40:221 [ADB] Getting focused package and activity
+2022-07-11 19:05:40:221 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:40:265 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:40:265 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:40:766 [ADB] Getting focused package and activity
+2022-07-11 19:05:40:766 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:40:820 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:40:820 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:41:329 [ADB] Getting focused package and activity
+2022-07-11 19:05:41:329 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:41:375 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:41:375 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:41:888 [ADB] Getting focused package and activity
+2022-07-11 19:05:41:888 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:41:932 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:41:932 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:42:433 [ADB] Getting focused package and activity
+2022-07-11 19:05:42:433 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:42:481 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:42:481 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:42:983 [ADB] Getting focused package and activity
+2022-07-11 19:05:42:984 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:43:032 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:43:033 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:43:545 [ADB] Getting focused package and activity
+2022-07-11 19:05:43:546 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:43:594 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:43:595 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:44:107 [ADB] Getting focused package and activity
+2022-07-11 19:05:44:107 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:44:184 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:44:184 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:44:685 [ADB] Getting focused package and activity
+2022-07-11 19:05:44:685 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:44:736 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:44:736 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:45:243 [ADB] Getting focused package and activity
+2022-07-11 19:05:45:243 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:45:289 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:45:289 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:45:804 [ADB] Getting focused package and activity
+2022-07-11 19:05:45:804 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:45:851 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:45:851 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:46:365 [ADB] Getting focused package and activity
+2022-07-11 19:05:46:366 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:46:413 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:46:413 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:46:926 [ADB] Getting focused package and activity
+2022-07-11 19:05:46:926 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:46:972 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:46:972 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:47:271 [ADB] Getting focused package and activity
+2022-07-11 19:05:47:271 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:47:320 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:47:321 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:47:321 [UiAutomator2] Deleting UiAutomator2 session
+2022-07-11 19:05:47:321 [UiAutomator2] Deleting UiAutomator2 server session
+2022-07-11 19:05:47:322 [WD Proxy] Matched '/' to command name 'deleteSession'
+2022-07-11 19:05:47:322 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:8211/wd/hub/session/1fbfd6fa-69bd-44c1-9f33-41973d1b8915] with no body
+2022-07-11 19:05:47:331 [WD Proxy] Got response with status 200: {"sessionId":"1fbfd6fa-69bd-44c1-9f33-41973d1b8915","value":null}
+2022-07-11 19:05:47:331 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.Sharp.Companion'
+2022-07-11 19:05:47:459 [Logcat] Stopping logcat capture
+2022-07-11 19:05:47:463 [ADB] Removing forwarded port socket connection: 8211 
+2022-07-11 19:05:47:464 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp:8211'
+2022-07-11 19:05:47:498 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2022-07-11 19:05:47:499 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2022-07-11 19:05:47:680 [BaseDriver] Event 'newSessionStarted' logged at 1657566347680 (15:05:47 GMT-0400 (Eastern Daylight Saving Time))
+2022-07-11 19:05:47:751 [W3C] Encountered internal error running command: Error: Cannot start the 'com.Sharp.Companion' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.Sharp.Companion.ui.activity.SplashScreenActivity' or 'com.Sharp.Companion.com.Sharp.Companion.ui.activity.SplashScreenActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+2022-07-11 19:05:47:751 [W3C]     at ADB.startApp (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-adb\lib\tools\apk-utils.js:179:11)
+2022-07-11 19:05:47:751 [W3C]     at AndroidUiautomator2Driver.ensureAppStarts (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:564:7)
+2022-07-11 19:05:47:751 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:431:7)
+2022-07-11 19:05:47:751 [W3C]     at AndroidUiautomator2Driver.createSession (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:229:7)
+2022-07-11 19:05:47:751 [W3C]     at AppiumDriver.createSession (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\lib\appium.js:387:35)
+2022-07-11 19:05:47:762 [HTTP] <-- POST /session 500 28495 ms - 1559
+2022-07-11 19:05:47:762 [HTTP] 
+2022-07-11 19:05:47:762 [Instrumentation] .
+2022-07-11 19:05:47:762 [Instrumentation] 
+2022-07-11 19:05:47:763 [Instrumentation] Time: 24.067
+2022-07-11 19:05:47:763 [Instrumentation] 
+2022-07-11 19:05:47:763 [Instrumentation] OK (1 test)
+2022-07-11 19:05:47:776 [HTTP] --> POST /session
+2022-07-11 19:05:47:776 [HTTP] {"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appium:appPackage":"com.Sharp.Companion","appium:appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","appium:newCommandTimeout":240},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appium:appPackage":"com.Sharp.Companion","appium:appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","appium:newCommandTimeout":240}}
+2022-07-11 19:05:47:777 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appium:appPackage":"com.Sharp.Companion","appium:appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","appium:newCommandTimeout":240},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appium:appPackage":"com.Sharp.Companion","appium:appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","appium:newCommandTimeout":240},"firstMatch":[{}]}]
+2022-07-11 19:05:47:777 [BaseDriver] Event 'newSessionRequested' logged at 1657566347777 (15:05:47 GMT-0400 (Eastern Daylight Saving Time))
+2022-07-11 19:05:47:778 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2022-07-11 19:05:47:779 [Appium] Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+2022-07-11 19:05:47:779 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-07-11 19:05:47:779 [BaseDriver] Creating session with W3C capabilities: {
+2022-07-11 19:05:47:779 [BaseDriver]   "alwaysMatch": {
+2022-07-11 19:05:47:782 [BaseDriver]     "platformName": "Android",
+2022-07-11 19:05:47:782 [BaseDriver]     "appium:deviceName": "emulator-5554",
+2022-07-11 19:05:47:782 [BaseDriver]     "appium:platformVersion": "11.0",
+2022-07-11 19:05:47:782 [BaseDriver]     "appium:orientation": "PORTRAIT",
+2022-07-11 19:05:47:782 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2022-07-11 19:05:47:782 [BaseDriver]     "appium:app": "D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk",
+2022-07-11 19:05:47:782 [BaseDriver]     "appium:appPackage": "com.Sharp.Companion",
+2022-07-11 19:05:47:782 [BaseDriver]     "appium:appWaitActivity": "com.Sharp.Companion.ui.activity.SplashScreenActivity",
+2022-07-11 19:05:47:782 [BaseDriver]     "appium:newCommandTimeout": 240
+2022-07-11 19:05:47:782 [BaseDriver]   },
+2022-07-11 19:05:47:782 [BaseDriver]   "firstMatch": [
+2022-07-11 19:05:47:782 [BaseDriver]     {}
+2022-07-11 19:05:47:783 [BaseDriver]   ]
+2022-07-11 19:05:47:783 [BaseDriver] }
+2022-07-11 19:05:47:790 [BaseDriver] Session created with session id: 7d96e8ef-10e9-4d85-a139-a53e9958c30b
+2022-07-11 19:05:47:790 [BaseDriver] Using local app 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\apps\app-debug.apk'
+2022-07-11 19:05:47:790 [UiAutomator2] Checking whether app is actually present
+2022-07-11 19:05:47:791 [ADB] Using 'adb.exe' from 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-07-11 19:05:47:791 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-07-11 19:05:47:820 [AndroidDriver] Retrieving device list
+2022-07-11 19:05:47:821 [ADB] Trying to find a connected android device
+2022-07-11 19:05:47:821 [ADB] Getting connected devices
+2022-07-11 19:05:47:854 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2022-07-11 19:05:47:854 [AndroidDriver] Looking for a device with Android '11.0.0'
+2022-07-11 19:05:47:854 [ADB] Setting device id to emulator-5554
+2022-07-11 19:05:47:854 [ADB] Getting device platform version
+2022-07-11 19:05:47:854 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2022-07-11 19:05:47:892 [ADB] Current device property 'ro.build.version.release': 11
+2022-07-11 19:05:47:893 [AndroidDriver] Using device: emulator-5554
+2022-07-11 19:05:47:894 [ADB] Using 'adb.exe' from 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-07-11 19:05:47:894 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-07-11 19:05:47:921 [ADB] Setting device id to emulator-5554
+2022-07-11 19:05:47:921 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2022-07-11 19:05:47:957 [ADB] Current device property 'ro.build.version.sdk': 30
+2022-07-11 19:05:47:957 [ADB] Getting device platform version
+2022-07-11 19:05:47:957 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2022-07-11 19:05:47:993 [ADB] Current device property 'ro.build.version.release': 11
+2022-07-11 19:05:47:993 [ADB] Device API level: 30
+2022-07-11 19:05:47:993 [UiAutomator2] Relaxing hidden api policy
+2022-07-11 19:05:47:993 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2022-07-11 19:05:48:055 [AndroidDriver] Parsing package and activity from app manifest
+2022-07-11 19:05:48:084 [ADB] Package name: 'com.Sharp.Companion'
+2022-07-11 19:05:48:085 [ADB] Main activity name: 'com.Sharp.Companion.ui.activity.SplashScreenActivity'
+2022-07-11 19:05:48:085 [AndroidDriver] Parsed package and activity are: com.Sharp.Companion/com.Sharp.Companion.ui.activity.SplashScreenActivity
+2022-07-11 19:05:48:085 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+2022-07-11 19:05:48:111 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+2022-07-11 19:05:48:142 [AndroidDriver] Pushing settings apk to device...
+2022-07-11 19:05:48:142 [ADB] Getting install status for io.appium.settings
+2022-07-11 19:05:48:142 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2022-07-11 19:05:48:238 [Instrumentation] The process has exited with code 0
+2022-07-11 19:05:48:249 [ADB] 'io.appium.settings' is installed
+2022-07-11 19:05:48:249 [ADB] Getting package info for 'io.appium.settings'
+2022-07-11 19:05:48:249 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2022-07-11 19:05:48:288 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+2022-07-11 19:05:48:288 [ADB] There is no need to install/upgrade 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2022-07-11 19:05:48:288 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-07-11 19:05:48:288 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2022-07-11 19:05:48:326 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-07-11 19:05:48:375 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2022-07-11 19:05:48:375 [Logcat] Starting logs capture with command: C:\\Users\\prince\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 logcat -v threadtime
+2022-07-11 19:05:48:411 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 8211
+2022-07-11 19:05:48:411 [ADB] Forwarding system: 8211 to device: 6790
+2022-07-11 19:05:48:411 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8211 tcp:6790'
+2022-07-11 19:05:48:452 [ADB] Getting install status for io.appium.uiautomator2.server
+2022-07-11 19:05:48:452 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2022-07-11 19:05:48:500 [ADB] 'io.appium.uiautomator2.server' is installed
+2022-07-11 19:05:48:500 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2022-07-11 19:05:48:500 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2022-07-11 19:05:48:737 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.27.0' >= '4.27.0')
+2022-07-11 19:05:48:737 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2022-07-11 19:05:48:737 [ADB] Checking app cert for D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk
+2022-07-11 19:05:48:754 [ADB] Using the previously cached signature entry for 'appium-uiautomator2-server-v4.27.0.apk'
+2022-07-11 19:05:48:755 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+2022-07-11 19:05:48:755 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2022-07-11 19:05:48:755 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+2022-07-11 19:05:48:792 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2022-07-11 19:05:48:792 [ADB] Checking app cert for D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2022-07-11 19:05:48:793 [ADB] Using the previously cached signature entry for 'appium-uiautomator2-server-debug-androidTest.apk'
+2022-07-11 19:05:48:793 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2022-07-11 19:05:48:793 [UiAutomator2] Server packages are not going to be (re)installed
+2022-07-11 19:05:48:796 [UiAutomator2] Waiting up to 30000ms for services to be available
+2022-07-11 19:05:48:796 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
+2022-07-11 19:05:48:834 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2022-07-11 19:05:48:836 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2022-07-11 19:05:48:836 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2022-07-11 19:05:48:836 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2022-07-11 19:05:48:911 [ADB] Checking app cert for D:\Workspace\Tido\Android QA Automation\Android UI Testing\apps\app-debug.apk
+2022-07-11 19:05:48:998 [ADB] Using the previously cached signature entry for 'app-debug.apk'
+2022-07-11 19:05:48:998 [ADB] Getting install status for com.Sharp.Companion
+2022-07-11 19:05:48:999 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.Sharp.Companion'
+2022-07-11 19:05:49:035 [ADB] 'com.Sharp.Companion' is installed
+2022-07-11 19:05:49:035 [ADB] Getting package info for 'com.Sharp.Companion'
+2022-07-11 19:05:49:035 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.Sharp.Companion'
+2022-07-11 19:05:49:090 [ADB] The version name of the installed 'com.Sharp.Companion' is greater or equal to the application version name ('2.0.1' >= '2.0.1')
+2022-07-11 19:05:49:091 [ADB] There is no need to install/upgrade 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\apps\app-debug.apk'
+2022-07-11 19:05:49:091 [AndroidDriver] Performing fast reset on 'com.Sharp.Companion'
+2022-07-11 19:05:49:091 [ADB] Getting install status for com.Sharp.Companion
+2022-07-11 19:05:49:091 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.Sharp.Companion'
+2022-07-11 19:05:49:127 [ADB] 'com.Sharp.Companion' is installed
+2022-07-11 19:05:49:127 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.Sharp.Companion'
+2022-07-11 19:05:49:168 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm clear com.Sharp.Companion'
+2022-07-11 19:05:49:241 [AndroidDriver] Performed fast reset on the installed 'com.Sharp.Companion' application (stop and clear)
+2022-07-11 19:05:49:241 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2022-07-11 19:05:49:255 [UiAutomator2] No obsolete sessions have been detected (socket hang up)
+2022-07-11 19:05:49:255 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2022-07-11 19:05:49:310 [UiAutomator2] Starting UIAutomator2 server 4.27.0
+2022-07-11 19:05:49:310 [UiAutomator2] Using UIAutomator2 server from 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2022-07-11 19:05:49:310 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2022-07-11 19:05:49:310 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2022-07-11 19:05:49:316 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-11 19:05:49:317 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8211/wd/hub/status] with no body
+2022-07-11 19:05:49:321 [WD Proxy] socket hang up
+2022-07-11 19:05:49:843 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2022-07-11 19:05:50:328 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-11 19:05:50:329 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8211/wd/hub/status] with no body
+2022-07-11 19:05:50:332 [WD Proxy] socket hang up
+2022-07-11 19:05:51:340 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-11 19:05:51:341 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8211/wd/hub/status] with no body
+2022-07-11 19:05:51:409 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2022-07-11 19:05:51:409 [UiAutomator2] The initialization of the instrumentation process took 2099ms
+2022-07-11 19:05:51:409 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-07-11 19:05:51:409 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8211/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11.0","orientation":"PORTRAIT","automationName":"UiAutomator2","app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appPackage":"com.Sharp.Companion","appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","newCommandTimeout":240},"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11.0","orientation":"PORTRAIT","automationName":"UiAutomator2","app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appPackage":"com.Sharp.Companion","appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","newCommandTimeout":240,"deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
+2022-07-11 19:05:51:430 [WD Proxy] Got response with status 200: {"sessionId":"f177f5dc-3e8e-4f5b-a97a-7461f210aabd","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11.0","orientation":"PORTRAIT","automationName":"UiAutomator2","app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appPackage":"com.Sharp.Companion","appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","newCommandTimeout":240},"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11.0","orientation":"PORTRAIT","automationName":"UiAutomator2","app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appPackage":"com.Sharp.Companion","appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","newCommandTimeout":240,"de...
+2022-07-11 19:05:51:430 [WD Proxy] Determined the downstream protocol as 'W3C'
+2022-07-11 19:05:51:440 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8211/wd/hub/session/f177f5dc-3e8e-4f5b-a97a-7461f210aabd/appium/device/info] with no body
+2022-07-11 19:05:51:459 [WD Proxy] Got response with status 200: {"sessionId":"f177f5dc-3e8e-4f5b-a97a-7461f210aabd","value":{"androidId":"83782952b21e3b0d","apiVersion":"30","bluetooth":{"state":"ON"},"brand":"google","carrierName":"Android","displayDensity":400,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone_x86_arm","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_DUN,NET_CAPABILITY_FOTA,NET_CAPABILITY_IMS,NET_CAPABILITY_CBS,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"epc.tmobile.com","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"},{"capabilitie...
+2022-07-11 19:05:51:460 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+2022-07-11 19:05:51:519 [AndroidDriver] Screen already unlocked, doing nothing
+2022-07-11 19:05:51:519 [UiAutomator2] Starting 'com.Sharp.Companion/com.Sharp.Companion.ui.activity.SplashScreenActivity and waiting for 'com.Sharp.Companion/com.Sharp.Companion.ui.activity.SplashScreenActivity'
+2022-07-11 19:05:51:519 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.Sharp.Companion/com.Sharp.Companion.ui.activity.SplashScreenActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2022-07-11 19:05:53:110 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.Sharp.Companion' and activity: 'com.Sharp.Companion.ui.activity.SplashScreenActivity' to be focused
+2022-07-11 19:05:53:111 [ADB] Possible activities, to be checked: 'com.Sharp.Companion.ui.activity.SplashScreenActivity', 'com.Sharp.Companion.com.Sharp.Companion.ui.activity.SplashScreenActivity'
+2022-07-11 19:05:53:111 [ADB] Getting focused package and activity
+2022-07-11 19:05:53:111 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:53:250 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:53:250 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:53:758 [ADB] Getting focused package and activity
+2022-07-11 19:05:53:758 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:53:815 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:53:815 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:54:319 [ADB] Getting focused package and activity
+2022-07-11 19:05:54:319 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:54:373 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:54:374 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:54:884 [ADB] Getting focused package and activity
+2022-07-11 19:05:54:884 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:54:950 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:54:950 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:55:452 [ADB] Getting focused package and activity
+2022-07-11 19:05:55:452 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:55:554 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:55:554 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:56:066 [ADB] Getting focused package and activity
+2022-07-11 19:05:56:066 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:56:136 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:56:137 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:56:646 [ADB] Getting focused package and activity
+2022-07-11 19:05:56:646 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:56:729 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:56:729 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:57:230 [ADB] Getting focused package and activity
+2022-07-11 19:05:57:230 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:57:296 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:57:296 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:57:799 [ADB] Getting focused package and activity
+2022-07-11 19:05:57:800 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:57:855 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:57:855 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:58:366 [ADB] Getting focused package and activity
+2022-07-11 19:05:58:366 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:58:418 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:58:419 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:58:930 [ADB] Getting focused package and activity
+2022-07-11 19:05:58:930 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:58:986 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:58:986 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:05:59:489 [ADB] Getting focused package and activity
+2022-07-11 19:05:59:490 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:05:59:535 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:05:59:535 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:00:038 [ADB] Getting focused package and activity
+2022-07-11 19:06:00:038 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:00:084 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:00:085 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:00:585 [ADB] Getting focused package and activity
+2022-07-11 19:06:00:585 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:00:643 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:00:643 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:01:153 [ADB] Getting focused package and activity
+2022-07-11 19:06:01:153 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:01:197 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:01:197 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:01:697 [ADB] Getting focused package and activity
+2022-07-11 19:06:01:697 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:01:745 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:01:746 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:02:248 [ADB] Getting focused package and activity
+2022-07-11 19:06:02:248 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:02:292 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:02:292 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:02:795 [ADB] Getting focused package and activity
+2022-07-11 19:06:02:795 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:02:844 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:02:844 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:03:356 [ADB] Getting focused package and activity
+2022-07-11 19:06:03:356 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:03:402 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:03:403 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:03:916 [ADB] Getting focused package and activity
+2022-07-11 19:06:03:916 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:03:962 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:03:962 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:04:466 [ADB] Getting focused package and activity
+2022-07-11 19:06:04:466 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:04:514 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:04:514 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:05:026 [ADB] Getting focused package and activity
+2022-07-11 19:06:05:026 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:05:070 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:05:070 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:05:572 [ADB] Getting focused package and activity
+2022-07-11 19:06:05:572 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:05:617 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:05:617 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:06:125 [ADB] Getting focused package and activity
+2022-07-11 19:06:06:125 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:06:168 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:06:168 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:06:670 [ADB] Getting focused package and activity
+2022-07-11 19:06:06:670 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:06:715 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:06:715 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:07:216 [ADB] Getting focused package and activity
+2022-07-11 19:06:07:216 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:07:260 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:07:260 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:07:774 [ADB] Getting focused package and activity
+2022-07-11 19:06:07:774 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:07:820 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:07:820 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:08:334 [ADB] Getting focused package and activity
+2022-07-11 19:06:08:335 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:08:382 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:08:382 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:08:894 [ADB] Getting focused package and activity
+2022-07-11 19:06:08:894 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:08:938 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:08:938 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:09:446 [ADB] Getting focused package and activity
+2022-07-11 19:06:09:447 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:09:493 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:09:493 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:10:008 [ADB] Getting focused package and activity
+2022-07-11 19:06:10:008 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:10:054 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:10:054 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:10:555 [ADB] Getting focused package and activity
+2022-07-11 19:06:10:555 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:10:606 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:10:606 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:11:116 [ADB] Getting focused package and activity
+2022-07-11 19:06:11:116 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:11:167 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:11:167 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:11:674 [ADB] Getting focused package and activity
+2022-07-11 19:06:11:674 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:11:717 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:11:718 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:12:225 [ADB] Getting focused package and activity
+2022-07-11 19:06:12:225 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:12:270 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:12:270 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:12:783 [ADB] Getting focused package and activity
+2022-07-11 19:06:12:783 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:12:826 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:12:826 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:13:111 [ADB] Getting focused package and activity
+2022-07-11 19:06:13:112 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:13:156 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:13:157 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:13:157 [UiAutomator2] Deleting UiAutomator2 session
+2022-07-11 19:06:13:157 [UiAutomator2] Deleting UiAutomator2 server session
+2022-07-11 19:06:13:157 [WD Proxy] Matched '/' to command name 'deleteSession'
+2022-07-11 19:06:13:157 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:8211/wd/hub/session/f177f5dc-3e8e-4f5b-a97a-7461f210aabd] with no body
+2022-07-11 19:06:13:165 [WD Proxy] Got response with status 200: {"sessionId":"f177f5dc-3e8e-4f5b-a97a-7461f210aabd","value":null}
+2022-07-11 19:06:13:165 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.Sharp.Companion'
+2022-07-11 19:06:13:291 [Logcat] Stopping logcat capture
+2022-07-11 19:06:13:296 [ADB] Removing forwarded port socket connection: 8211 
+2022-07-11 19:06:13:297 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp:8211'
+2022-07-11 19:06:13:328 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2022-07-11 19:06:13:329 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2022-07-11 19:06:13:565 [BaseDriver] Event 'newSessionStarted' logged at 1657566373565 (15:06:13 GMT-0400 (Eastern Daylight Saving Time))
+2022-07-11 19:06:13:566 [W3C] Encountered internal error running command: Error: Cannot start the 'com.Sharp.Companion' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.Sharp.Companion.ui.activity.SplashScreenActivity' or 'com.Sharp.Companion.com.Sharp.Companion.ui.activity.SplashScreenActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+2022-07-11 19:06:13:566 [W3C]     at ADB.startApp (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-adb\lib\tools\apk-utils.js:179:11)
+2022-07-11 19:06:13:566 [W3C]     at AndroidUiautomator2Driver.ensureAppStarts (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:564:7)
+2022-07-11 19:06:13:566 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:431:7)
+2022-07-11 19:06:13:566 [W3C]     at AndroidUiautomator2Driver.createSession (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:229:7)
+2022-07-11 19:06:13:566 [W3C]     at AppiumDriver.createSession (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\lib\appium.js:387:35)
+2022-07-11 19:06:13:569 [HTTP] <-- POST /session 500 25791 ms - 1559
+2022-07-11 19:06:13:569 [HTTP] 
+2022-07-11 19:06:13:579 [HTTP] --> POST /session
+2022-07-11 19:06:13:579 [HTTP] {"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appium:appPackage":"com.Sharp.Companion","appium:appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","appium:newCommandTimeout":240},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appium:appPackage":"com.Sharp.Companion","appium:appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","appium:newCommandTimeout":240}}
+2022-07-11 19:06:13:580 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appium:appPackage":"com.Sharp.Companion","appium:appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","appium:newCommandTimeout":240},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appium:appPackage":"com.Sharp.Companion","appium:appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","appium:newCommandTimeout":240},"firstMatch":[{}]}]
+2022-07-11 19:06:13:580 [BaseDriver] Event 'newSessionRequested' logged at 1657566373580 (15:06:13 GMT-0400 (Eastern Daylight Saving Time))
+2022-07-11 19:06:13:583 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2022-07-11 19:06:13:584 [Appium] Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+2022-07-11 19:06:13:585 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-07-11 19:06:13:585 [BaseDriver] Creating session with W3C capabilities: {
+2022-07-11 19:06:13:585 [BaseDriver]   "alwaysMatch": {
+2022-07-11 19:06:13:585 [BaseDriver]     "platformName": "Android",
+2022-07-11 19:06:13:585 [BaseDriver]     "appium:deviceName": "emulator-5554",
+2022-07-11 19:06:13:585 [BaseDriver]     "appium:platformVersion": "11.0",
+2022-07-11 19:06:13:585 [BaseDriver]     "appium:orientation": "PORTRAIT",
+2022-07-11 19:06:13:585 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2022-07-11 19:06:13:586 [BaseDriver]     "appium:app": "D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk",
+2022-07-11 19:06:13:586 [BaseDriver]     "appium:appPackage": "com.Sharp.Companion",
+2022-07-11 19:06:13:586 [BaseDriver]     "appium:appWaitActivity": "com.Sharp.Companion.ui.activity.SplashScreenActivity",
+2022-07-11 19:06:13:586 [BaseDriver]     "appium:newCommandTimeout": 240
+2022-07-11 19:06:13:586 [BaseDriver]   },
+2022-07-11 19:06:13:586 [BaseDriver]   "firstMatch": [
+2022-07-11 19:06:13:586 [BaseDriver]     {}
+2022-07-11 19:06:13:586 [BaseDriver]   ]
+2022-07-11 19:06:13:586 [BaseDriver] }
+2022-07-11 19:06:13:589 [BaseDriver] Session created with session id: 30f0b07c-0797-4833-abcf-bdb98d7a0640
+2022-07-11 19:06:13:590 [BaseDriver] Using local app 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\apps\app-debug.apk'
+2022-07-11 19:06:13:590 [UiAutomator2] Checking whether app is actually present
+2022-07-11 19:06:13:591 [ADB] Using 'adb.exe' from 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-07-11 19:06:13:592 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-07-11 19:06:13:622 [AndroidDriver] Retrieving device list
+2022-07-11 19:06:13:623 [ADB] Trying to find a connected android device
+2022-07-11 19:06:13:623 [ADB] Getting connected devices
+2022-07-11 19:06:13:656 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2022-07-11 19:06:13:657 [AndroidDriver] Looking for a device with Android '11.0.0'
+2022-07-11 19:06:13:657 [ADB] Setting device id to emulator-5554
+2022-07-11 19:06:13:657 [ADB] Getting device platform version
+2022-07-11 19:06:13:657 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2022-07-11 19:06:13:692 [ADB] Current device property 'ro.build.version.release': 11
+2022-07-11 19:06:13:692 [AndroidDriver] Using device: emulator-5554
+2022-07-11 19:06:13:693 [ADB] Using 'adb.exe' from 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-07-11 19:06:13:693 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-07-11 19:06:13:721 [ADB] Setting device id to emulator-5554
+2022-07-11 19:06:13:721 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2022-07-11 19:06:13:756 [ADB] Current device property 'ro.build.version.sdk': 30
+2022-07-11 19:06:13:756 [ADB] Getting device platform version
+2022-07-11 19:06:13:756 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2022-07-11 19:06:13:792 [ADB] Current device property 'ro.build.version.release': 11
+2022-07-11 19:06:13:792 [ADB] Device API level: 30
+2022-07-11 19:06:13:792 [UiAutomator2] Relaxing hidden api policy
+2022-07-11 19:06:13:792 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2022-07-11 19:06:13:858 [AndroidDriver] Parsing package and activity from app manifest
+2022-07-11 19:06:13:878 [ADB] Package name: 'com.Sharp.Companion'
+2022-07-11 19:06:13:878 [ADB] Main activity name: 'com.Sharp.Companion.ui.activity.SplashScreenActivity'
+2022-07-11 19:06:13:878 [AndroidDriver] Parsed package and activity are: com.Sharp.Companion/com.Sharp.Companion.ui.activity.SplashScreenActivity
+2022-07-11 19:06:13:878 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+2022-07-11 19:06:13:908 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+2022-07-11 19:06:13:940 [AndroidDriver] Pushing settings apk to device...
+2022-07-11 19:06:13:940 [ADB] Getting install status for io.appium.settings
+2022-07-11 19:06:13:941 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2022-07-11 19:06:13:983 [Instrumentation] .
+2022-07-11 19:06:13:997 [Instrumentation] Time: 24.145
+2022-07-11 19:06:13:997 [Instrumentation] 
+2022-07-11 19:06:13:997 [Instrumentation] OK (1 test)
+2022-07-11 19:06:14:066 [ADB] 'io.appium.settings' is installed
+2022-07-11 19:06:14:066 [ADB] Getting package info for 'io.appium.settings'
+2022-07-11 19:06:14:067 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2022-07-11 19:06:14:110 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+2022-07-11 19:06:14:110 [ADB] There is no need to install/upgrade 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2022-07-11 19:06:14:110 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-07-11 19:06:14:110 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2022-07-11 19:06:14:147 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-07-11 19:06:14:199 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2022-07-11 19:06:14:199 [Logcat] Starting logs capture with command: C:\\Users\\prince\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 logcat -v threadtime
+2022-07-11 19:06:14:238 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 8211
+2022-07-11 19:06:14:239 [ADB] Forwarding system: 8211 to device: 6790
+2022-07-11 19:06:14:239 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8211 tcp:6790'
+2022-07-11 19:06:14:282 [ADB] Getting install status for io.appium.uiautomator2.server
+2022-07-11 19:06:14:282 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2022-07-11 19:06:14:331 [ADB] 'io.appium.uiautomator2.server' is installed
+2022-07-11 19:06:14:331 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2022-07-11 19:06:14:331 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2022-07-11 19:06:14:433 [Instrumentation] The process has exited with code 0
+2022-07-11 19:06:14:542 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.27.0' >= '4.27.0')
+2022-07-11 19:06:14:542 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2022-07-11 19:06:14:542 [ADB] Checking app cert for D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk
+2022-07-11 19:06:14:556 [ADB] Using the previously cached signature entry for 'appium-uiautomator2-server-v4.27.0.apk'
+2022-07-11 19:06:14:557 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+2022-07-11 19:06:14:557 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2022-07-11 19:06:14:557 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+2022-07-11 19:06:14:615 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2022-07-11 19:06:14:615 [ADB] Checking app cert for D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2022-07-11 19:06:14:617 [ADB] Using the previously cached signature entry for 'appium-uiautomator2-server-debug-androidTest.apk'
+2022-07-11 19:06:14:617 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2022-07-11 19:06:14:617 [UiAutomator2] Server packages are not going to be (re)installed
+2022-07-11 19:06:14:620 [UiAutomator2] Waiting up to 30000ms for services to be available
+2022-07-11 19:06:14:620 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
+2022-07-11 19:06:14:668 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2022-07-11 19:06:14:669 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2022-07-11 19:06:14:669 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2022-07-11 19:06:14:669 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2022-07-11 19:06:14:731 [ADB] Checking app cert for D:\Workspace\Tido\Android QA Automation\Android UI Testing\apps\app-debug.apk
+2022-07-11 19:06:14:812 [ADB] Using the previously cached signature entry for 'app-debug.apk'
+2022-07-11 19:06:14:812 [ADB] Getting install status for com.Sharp.Companion
+2022-07-11 19:06:14:813 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.Sharp.Companion'
+2022-07-11 19:06:14:849 [ADB] 'com.Sharp.Companion' is installed
+2022-07-11 19:06:14:849 [ADB] Getting package info for 'com.Sharp.Companion'
+2022-07-11 19:06:14:849 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.Sharp.Companion'
+2022-07-11 19:06:14:901 [ADB] The version name of the installed 'com.Sharp.Companion' is greater or equal to the application version name ('2.0.1' >= '2.0.1')
+2022-07-11 19:06:14:901 [ADB] There is no need to install/upgrade 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\apps\app-debug.apk'
+2022-07-11 19:06:14:901 [AndroidDriver] Performing fast reset on 'com.Sharp.Companion'
+2022-07-11 19:06:14:901 [ADB] Getting install status for com.Sharp.Companion
+2022-07-11 19:06:14:901 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.Sharp.Companion'
+2022-07-11 19:06:14:939 [ADB] 'com.Sharp.Companion' is installed
+2022-07-11 19:06:14:939 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.Sharp.Companion'
+2022-07-11 19:06:14:979 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm clear com.Sharp.Companion'
+2022-07-11 19:06:15:030 [AndroidDriver] Performed fast reset on the installed 'com.Sharp.Companion' application (stop and clear)
+2022-07-11 19:06:15:031 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2022-07-11 19:06:15:034 [UiAutomator2] No obsolete sessions have been detected (socket hang up)
+2022-07-11 19:06:15:034 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2022-07-11 19:06:15:087 [UiAutomator2] Starting UIAutomator2 server 4.27.0
+2022-07-11 19:06:15:087 [UiAutomator2] Using UIAutomator2 server from 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2022-07-11 19:06:15:087 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2022-07-11 19:06:15:087 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2022-07-11 19:06:15:103 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-11 19:06:15:103 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8211/wd/hub/status] with no body
+2022-07-11 19:06:15:108 [WD Proxy] socket hang up
+2022-07-11 19:06:15:626 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2022-07-11 19:06:16:116 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-11 19:06:16:116 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8211/wd/hub/status] with no body
+2022-07-11 19:06:16:119 [WD Proxy] socket hang up
+2022-07-11 19:06:17:130 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-11 19:06:17:130 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8211/wd/hub/status] with no body
+2022-07-11 19:06:17:197 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2022-07-11 19:06:17:198 [UiAutomator2] The initialization of the instrumentation process took 2110ms
+2022-07-11 19:06:17:198 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-07-11 19:06:17:198 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8211/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11.0","orientation":"PORTRAIT","automationName":"UiAutomator2","app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appPackage":"com.Sharp.Companion","appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","newCommandTimeout":240},"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11.0","orientation":"PORTRAIT","automationName":"UiAutomator2","app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appPackage":"com.Sharp.Companion","appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","newCommandTimeout":240,"deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
+2022-07-11 19:06:17:218 [WD Proxy] Got response with status 200: {"sessionId":"1b61bf6f-e031-4437-b673-89e9afe4deea","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11.0","orientation":"PORTRAIT","automationName":"UiAutomator2","app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appPackage":"com.Sharp.Companion","appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","newCommandTimeout":240},"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11.0","orientation":"PORTRAIT","automationName":"UiAutomator2","app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appPackage":"com.Sharp.Companion","appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","newCommandTimeout":240,"de...
+2022-07-11 19:06:17:218 [WD Proxy] Determined the downstream protocol as 'W3C'
+2022-07-11 19:06:17:228 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8211/wd/hub/session/1b61bf6f-e031-4437-b673-89e9afe4deea/appium/device/info] with no body
+2022-07-11 19:06:17:251 [WD Proxy] Got response with status 200: {"sessionId":"1b61bf6f-e031-4437-b673-89e9afe4deea","value":{"androidId":"83782952b21e3b0d","apiVersion":"30","bluetooth":{"state":"ON"},"brand":"google","carrierName":"Android","displayDensity":400,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone_x86_arm","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_DUN,NET_CAPABILITY_FOTA,NET_CAPABILITY_IMS,NET_CAPABILITY_CBS,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"epc.tmobile.com","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"},{"capabilitie...
+2022-07-11 19:06:17:251 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+2022-07-11 19:06:17:310 [AndroidDriver] Screen already unlocked, doing nothing
+2022-07-11 19:06:17:310 [UiAutomator2] Starting 'com.Sharp.Companion/com.Sharp.Companion.ui.activity.SplashScreenActivity and waiting for 'com.Sharp.Companion/com.Sharp.Companion.ui.activity.SplashScreenActivity'
+2022-07-11 19:06:17:310 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.Sharp.Companion/com.Sharp.Companion.ui.activity.SplashScreenActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2022-07-11 19:06:18:891 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.Sharp.Companion' and activity: 'com.Sharp.Companion.ui.activity.SplashScreenActivity' to be focused
+2022-07-11 19:06:18:891 [ADB] Possible activities, to be checked: 'com.Sharp.Companion.ui.activity.SplashScreenActivity', 'com.Sharp.Companion.com.Sharp.Companion.ui.activity.SplashScreenActivity'
+2022-07-11 19:06:18:891 [ADB] Getting focused package and activity
+2022-07-11 19:06:18:891 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:19:013 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:19:013 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:19:520 [ADB] Getting focused package and activity
+2022-07-11 19:06:19:520 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:19:576 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:19:576 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:20:079 [ADB] Getting focused package and activity
+2022-07-11 19:06:20:079 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:20:124 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:20:124 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:20:624 [ADB] Getting focused package and activity
+2022-07-11 19:06:20:624 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:20:668 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:20:668 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:21:183 [ADB] Getting focused package and activity
+2022-07-11 19:06:21:184 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:21:229 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:21:230 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:21:741 [ADB] Getting focused package and activity
+2022-07-11 19:06:21:741 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:21:794 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:21:794 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:22:305 [ADB] Getting focused package and activity
+2022-07-11 19:06:22:305 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:22:350 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:22:350 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:22:851 [ADB] Getting focused package and activity
+2022-07-11 19:06:22:851 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:22:897 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:22:897 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:23:409 [ADB] Getting focused package and activity
+2022-07-11 19:06:23:409 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:23:455 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:23:455 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:23:962 [ADB] Getting focused package and activity
+2022-07-11 19:06:23:962 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:24:037 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:24:037 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:24:540 [ADB] Getting focused package and activity
+2022-07-11 19:06:24:540 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:24:590 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:24:590 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:25:097 [ADB] Getting focused package and activity
+2022-07-11 19:06:25:097 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:25:144 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:25:144 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:25:646 [ADB] Getting focused package and activity
+2022-07-11 19:06:25:646 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:25:696 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:25:696 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:26:207 [ADB] Getting focused package and activity
+2022-07-11 19:06:26:207 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:26:257 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:26:258 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:26:768 [ADB] Getting focused package and activity
+2022-07-11 19:06:26:768 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:26:812 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:26:812 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:27:316 [ADB] Getting focused package and activity
+2022-07-11 19:06:27:316 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:27:362 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:27:362 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:27:864 [ADB] Getting focused package and activity
+2022-07-11 19:06:27:865 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:27:911 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:27:912 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:28:425 [ADB] Getting focused package and activity
+2022-07-11 19:06:28:425 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:28:474 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:28:474 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:28:989 [ADB] Getting focused package and activity
+2022-07-11 19:06:28:989 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:29:037 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:29:037 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:29:550 [ADB] Getting focused package and activity
+2022-07-11 19:06:29:550 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:29:597 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:29:597 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:30:109 [ADB] Getting focused package and activity
+2022-07-11 19:06:30:109 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:30:152 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:30:152 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:30:654 [ADB] Getting focused package and activity
+2022-07-11 19:06:30:654 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:30:697 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:30:697 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:31:211 [ADB] Getting focused package and activity
+2022-07-11 19:06:31:211 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:31:254 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:31:254 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:31:763 [ADB] Getting focused package and activity
+2022-07-11 19:06:31:764 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:31:809 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:31:809 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:32:310 [ADB] Getting focused package and activity
+2022-07-11 19:06:32:310 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:32:357 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:32:357 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:32:870 [ADB] Getting focused package and activity
+2022-07-11 19:06:32:870 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:32:916 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:32:916 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:33:416 [ADB] Getting focused package and activity
+2022-07-11 19:06:33:417 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:33:460 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:33:460 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:33:962 [ADB] Getting focused package and activity
+2022-07-11 19:06:33:962 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:34:011 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:34:011 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:34:523 [ADB] Getting focused package and activity
+2022-07-11 19:06:34:523 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:34:568 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:34:568 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:35:073 [ADB] Getting focused package and activity
+2022-07-11 19:06:35:074 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:35:127 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:35:127 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:35:641 [ADB] Getting focused package and activity
+2022-07-11 19:06:35:642 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:35:688 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:35:688 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:36:202 [ADB] Getting focused package and activity
+2022-07-11 19:06:36:202 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:36:249 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:36:249 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:36:751 [ADB] Getting focused package and activity
+2022-07-11 19:06:36:751 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:36:795 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:36:795 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:37:298 [ADB] Getting focused package and activity
+2022-07-11 19:06:37:299 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:37:358 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:37:358 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:37:872 [ADB] Getting focused package and activity
+2022-07-11 19:06:37:873 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:37:919 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:37:919 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:38:433 [ADB] Getting focused package and activity
+2022-07-11 19:06:38:433 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:38:480 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:38:480 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:38:900 [ADB] Getting focused package and activity
+2022-07-11 19:06:38:900 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:38:943 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:38:944 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:38:944 [UiAutomator2] Deleting UiAutomator2 session
+2022-07-11 19:06:38:944 [UiAutomator2] Deleting UiAutomator2 server session
+2022-07-11 19:06:38:944 [WD Proxy] Matched '/' to command name 'deleteSession'
+2022-07-11 19:06:38:945 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:8211/wd/hub/session/1b61bf6f-e031-4437-b673-89e9afe4deea] with no body
+2022-07-11 19:06:38:953 [WD Proxy] Got response with status 200: {"sessionId":"1b61bf6f-e031-4437-b673-89e9afe4deea","value":null}
+2022-07-11 19:06:38:953 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.Sharp.Companion'
+2022-07-11 19:06:39:120 [Logcat] Stopping logcat capture
+2022-07-11 19:06:39:126 [ADB] Removing forwarded port socket connection: 8211 
+2022-07-11 19:06:39:126 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp:8211'
+2022-07-11 19:06:39:157 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2022-07-11 19:06:39:157 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2022-07-11 19:06:39:353 [BaseDriver] Event 'newSessionStarted' logged at 1657566399353 (15:06:39 GMT-0400 (Eastern Daylight Saving Time))
+2022-07-11 19:06:39:355 [W3C] Encountered internal error running command: Error: Cannot start the 'com.Sharp.Companion' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.Sharp.Companion.ui.activity.SplashScreenActivity' or 'com.Sharp.Companion.com.Sharp.Companion.ui.activity.SplashScreenActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+2022-07-11 19:06:39:355 [W3C]     at ADB.startApp (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-adb\lib\tools\apk-utils.js:179:11)
+2022-07-11 19:06:39:355 [W3C]     at AndroidUiautomator2Driver.ensureAppStarts (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:564:7)
+2022-07-11 19:06:39:355 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:431:7)
+2022-07-11 19:06:39:355 [W3C]     at AndroidUiautomator2Driver.createSession (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:229:7)
+2022-07-11 19:06:39:355 [W3C]     at AppiumDriver.createSession (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\lib\appium.js:387:35)
+2022-07-11 19:06:39:358 [HTTP] <-- POST /session 500 25778 ms - 1559
+2022-07-11 19:06:39:358 [HTTP] 
+2022-07-11 19:06:39:366 [HTTP] --> POST /session
+2022-07-11 19:06:39:366 [HTTP] {"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appium:appPackage":"com.Sharp.Companion","appium:appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","appium:newCommandTimeout":240},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appium:appPackage":"com.Sharp.Companion","appium:appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","appium:newCommandTimeout":240}}
+2022-07-11 19:06:39:367 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appium:appPackage":"com.Sharp.Companion","appium:appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","appium:newCommandTimeout":240},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"emulator-5554","appium:platformVersion":"11.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appium:appPackage":"com.Sharp.Companion","appium:appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","appium:newCommandTimeout":240},"firstMatch":[{}]}]
+2022-07-11 19:06:39:367 [BaseDriver] Event 'newSessionRequested' logged at 1657566399367 (15:06:39 GMT-0400 (Eastern Daylight Saving Time))
+2022-07-11 19:06:39:369 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2022-07-11 19:06:39:370 [Appium] Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+2022-07-11 19:06:39:370 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-07-11 19:06:39:370 [BaseDriver] Creating session with W3C capabilities: {
+2022-07-11 19:06:39:370 [BaseDriver]   "alwaysMatch": {
+2022-07-11 19:06:39:370 [BaseDriver]     "platformName": "Android",
+2022-07-11 19:06:39:370 [BaseDriver]     "appium:deviceName": "emulator-5554",
+2022-07-11 19:06:39:370 [BaseDriver]     "appium:platformVersion": "11.0",
+2022-07-11 19:06:39:370 [BaseDriver]     "appium:orientation": "PORTRAIT",
+2022-07-11 19:06:39:370 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2022-07-11 19:06:39:370 [BaseDriver]     "appium:app": "D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk",
+2022-07-11 19:06:39:371 [BaseDriver]     "appium:appPackage": "com.Sharp.Companion",
+2022-07-11 19:06:39:371 [BaseDriver]     "appium:appWaitActivity": "com.Sharp.Companion.ui.activity.SplashScreenActivity",
+2022-07-11 19:06:39:371 [BaseDriver]     "appium:newCommandTimeout": 240
+2022-07-11 19:06:39:371 [BaseDriver]   },
+2022-07-11 19:06:39:371 [BaseDriver]   "firstMatch": [
+2022-07-11 19:06:39:371 [BaseDriver]     {}
+2022-07-11 19:06:39:371 [BaseDriver]   ]
+2022-07-11 19:06:39:371 [BaseDriver] }
+2022-07-11 19:06:39:375 [BaseDriver] Session created with session id: 57441a2c-eb72-4607-b810-843429e03de4
+2022-07-11 19:06:39:376 [BaseDriver] Using local app 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\apps\app-debug.apk'
+2022-07-11 19:06:39:376 [UiAutomator2] Checking whether app is actually present
+2022-07-11 19:06:39:378 [ADB] Using 'adb.exe' from 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-07-11 19:06:39:378 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-07-11 19:06:39:413 [AndroidDriver] Retrieving device list
+2022-07-11 19:06:39:413 [ADB] Trying to find a connected android device
+2022-07-11 19:06:39:413 [ADB] Getting connected devices
+2022-07-11 19:06:39:456 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2022-07-11 19:06:39:456 [AndroidDriver] Looking for a device with Android '11.0.0'
+2022-07-11 19:06:39:456 [ADB] Setting device id to emulator-5554
+2022-07-11 19:06:39:457 [ADB] Getting device platform version
+2022-07-11 19:06:39:457 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2022-07-11 19:06:39:504 [ADB] Current device property 'ro.build.version.release': 11
+2022-07-11 19:06:39:505 [AndroidDriver] Using device: emulator-5554
+2022-07-11 19:06:39:506 [ADB] Using 'adb.exe' from 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-07-11 19:06:39:506 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-07-11 19:06:39:535 [ADB] Setting device id to emulator-5554
+2022-07-11 19:06:39:535 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2022-07-11 19:06:39:573 [ADB] Current device property 'ro.build.version.sdk': 30
+2022-07-11 19:06:39:574 [ADB] Getting device platform version
+2022-07-11 19:06:39:574 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2022-07-11 19:06:39:610 [ADB] Current device property 'ro.build.version.release': 11
+2022-07-11 19:06:39:610 [ADB] Device API level: 30
+2022-07-11 19:06:39:610 [UiAutomator2] Relaxing hidden api policy
+2022-07-11 19:06:39:610 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2022-07-11 19:06:39:670 [AndroidDriver] Parsing package and activity from app manifest
+2022-07-11 19:06:39:686 [Instrumentation] .
+2022-07-11 19:06:39:692 [ADB] Package name: 'com.Sharp.Companion'
+2022-07-11 19:06:39:692 [ADB] Main activity name: 'com.Sharp.Companion.ui.activity.SplashScreenActivity'
+2022-07-11 19:06:39:692 [AndroidDriver] Parsed package and activity are: com.Sharp.Companion/com.Sharp.Companion.ui.activity.SplashScreenActivity
+2022-07-11 19:06:39:692 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+2022-07-11 19:06:39:701 [Instrumentation] Time: 24.065
+2022-07-11 19:06:39:701 [Instrumentation] 
+2022-07-11 19:06:39:701 [Instrumentation] OK (1 test)
+2022-07-11 19:06:39:723 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+2022-07-11 19:06:39:764 [AndroidDriver] Pushing settings apk to device...
+2022-07-11 19:06:39:764 [ADB] Getting install status for io.appium.settings
+2022-07-11 19:06:39:764 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2022-07-11 19:06:39:872 [ADB] 'io.appium.settings' is installed
+2022-07-11 19:06:39:872 [ADB] Getting package info for 'io.appium.settings'
+2022-07-11 19:06:39:873 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2022-07-11 19:06:39:914 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+2022-07-11 19:06:39:914 [ADB] There is no need to install/upgrade 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2022-07-11 19:06:39:914 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-07-11 19:06:39:915 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2022-07-11 19:06:39:950 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-07-11 19:06:39:997 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2022-07-11 19:06:39:998 [Logcat] Starting logs capture with command: C:\\Users\\prince\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 logcat -v threadtime
+2022-07-11 19:06:40:034 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 8211
+2022-07-11 19:06:40:034 [ADB] Forwarding system: 8211 to device: 6790
+2022-07-11 19:06:40:034 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8211 tcp:6790'
+2022-07-11 19:06:40:073 [ADB] Getting install status for io.appium.uiautomator2.server
+2022-07-11 19:06:40:073 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2022-07-11 19:06:40:131 [Instrumentation] The process has exited with code 0
+2022-07-11 19:06:40:138 [ADB] 'io.appium.uiautomator2.server' is installed
+2022-07-11 19:06:40:138 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2022-07-11 19:06:40:138 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2022-07-11 19:06:40:369 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.27.0' >= '4.27.0')
+2022-07-11 19:06:40:369 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2022-07-11 19:06:40:369 [ADB] Checking app cert for D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk
+2022-07-11 19:06:40:381 [ADB] Using the previously cached signature entry for 'appium-uiautomator2-server-v4.27.0.apk'
+2022-07-11 19:06:40:382 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+2022-07-11 19:06:40:382 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2022-07-11 19:06:40:382 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+2022-07-11 19:06:40:418 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2022-07-11 19:06:40:418 [ADB] Checking app cert for D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2022-07-11 19:06:40:420 [ADB] Using the previously cached signature entry for 'appium-uiautomator2-server-debug-androidTest.apk'
+2022-07-11 19:06:40:420 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2022-07-11 19:06:40:420 [UiAutomator2] Server packages are not going to be (re)installed
+2022-07-11 19:06:40:422 [UiAutomator2] Waiting up to 30000ms for services to be available
+2022-07-11 19:06:40:422 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
+2022-07-11 19:06:40:463 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2022-07-11 19:06:40:464 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2022-07-11 19:06:40:464 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2022-07-11 19:06:40:464 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2022-07-11 19:06:40:542 [ADB] Checking app cert for D:\Workspace\Tido\Android QA Automation\Android UI Testing\apps\app-debug.apk
+2022-07-11 19:06:40:627 [ADB] Using the previously cached signature entry for 'app-debug.apk'
+2022-07-11 19:06:40:627 [ADB] Getting install status for com.Sharp.Companion
+2022-07-11 19:06:40:627 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.Sharp.Companion'
+2022-07-11 19:06:40:668 [ADB] 'com.Sharp.Companion' is installed
+2022-07-11 19:06:40:668 [ADB] Getting package info for 'com.Sharp.Companion'
+2022-07-11 19:06:40:668 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.Sharp.Companion'
+2022-07-11 19:06:40:723 [ADB] The version name of the installed 'com.Sharp.Companion' is greater or equal to the application version name ('2.0.1' >= '2.0.1')
+2022-07-11 19:06:40:724 [ADB] There is no need to install/upgrade 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\apps\app-debug.apk'
+2022-07-11 19:06:40:724 [AndroidDriver] Performing fast reset on 'com.Sharp.Companion'
+2022-07-11 19:06:40:724 [ADB] Getting install status for com.Sharp.Companion
+2022-07-11 19:06:40:724 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.Sharp.Companion'
+2022-07-11 19:06:40:761 [ADB] 'com.Sharp.Companion' is installed
+2022-07-11 19:06:40:762 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.Sharp.Companion'
+2022-07-11 19:06:40:802 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm clear com.Sharp.Companion'
+2022-07-11 19:06:40:849 [AndroidDriver] Performed fast reset on the installed 'com.Sharp.Companion' application (stop and clear)
+2022-07-11 19:06:40:849 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2022-07-11 19:06:40:854 [UiAutomator2] No obsolete sessions have been detected (socket hang up)
+2022-07-11 19:06:40:854 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2022-07-11 19:06:40:901 [UiAutomator2] Starting UIAutomator2 server 4.27.0
+2022-07-11 19:06:40:901 [UiAutomator2] Using UIAutomator2 server from 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2022-07-11 19:06:40:901 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2022-07-11 19:06:40:901 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2022-07-11 19:06:40:906 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-11 19:06:40:907 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8211/wd/hub/status] with no body
+2022-07-11 19:06:40:911 [WD Proxy] socket hang up
+2022-07-11 19:06:41:440 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2022-07-11 19:06:41:923 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-11 19:06:41:923 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8211/wd/hub/status] with no body
+2022-07-11 19:06:41:926 [WD Proxy] socket hang up
+2022-07-11 19:06:42:931 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-11 19:06:42:931 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8211/wd/hub/status] with no body
+2022-07-11 19:06:42:997 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2022-07-11 19:06:42:997 [UiAutomator2] The initialization of the instrumentation process took 2096ms
+2022-07-11 19:06:42:997 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-07-11 19:06:42:997 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8211/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11.0","orientation":"PORTRAIT","automationName":"UiAutomator2","app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appPackage":"com.Sharp.Companion","appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","newCommandTimeout":240},"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11.0","orientation":"PORTRAIT","automationName":"UiAutomator2","app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appPackage":"com.Sharp.Companion","appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","newCommandTimeout":240,"deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
+2022-07-11 19:06:43:018 [WD Proxy] Got response with status 200: {"sessionId":"68cda7d9-9063-44a0-be83-300f7213e628","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11.0","orientation":"PORTRAIT","automationName":"UiAutomator2","app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appPackage":"com.Sharp.Companion","appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","newCommandTimeout":240},"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11.0","orientation":"PORTRAIT","automationName":"UiAutomator2","app":"D:\\Workspace\\Tido\\Android QA Automation\\Android UI Testing\\apps\\app-debug.apk","appPackage":"com.Sharp.Companion","appWaitActivity":"com.Sharp.Companion.ui.activity.SplashScreenActivity","newCommandTimeout":240,"de...
+2022-07-11 19:06:43:018 [WD Proxy] Determined the downstream protocol as 'W3C'
+2022-07-11 19:06:43:028 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8211/wd/hub/session/68cda7d9-9063-44a0-be83-300f7213e628/appium/device/info] with no body
+2022-07-11 19:06:43:048 [WD Proxy] Got response with status 200: {"sessionId":"68cda7d9-9063-44a0-be83-300f7213e628","value":{"androidId":"83782952b21e3b0d","apiVersion":"30","bluetooth":{"state":"ON"},"brand":"google","carrierName":"Android","displayDensity":400,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone_x86_arm","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_DUN,NET_CAPABILITY_FOTA,NET_CAPABILITY_IMS,NET_CAPABILITY_CBS,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"epc.tmobile.com","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"},{"capabilitie...
+2022-07-11 19:06:43:048 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+2022-07-11 19:06:43:109 [AndroidDriver] Screen already unlocked, doing nothing
+2022-07-11 19:06:43:109 [UiAutomator2] Starting 'com.Sharp.Companion/com.Sharp.Companion.ui.activity.SplashScreenActivity and waiting for 'com.Sharp.Companion/com.Sharp.Companion.ui.activity.SplashScreenActivity'
+2022-07-11 19:06:43:109 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.Sharp.Companion/com.Sharp.Companion.ui.activity.SplashScreenActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2022-07-11 19:06:44:698 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.Sharp.Companion' and activity: 'com.Sharp.Companion.ui.activity.SplashScreenActivity' to be focused
+2022-07-11 19:06:44:698 [ADB] Possible activities, to be checked: 'com.Sharp.Companion.ui.activity.SplashScreenActivity', 'com.Sharp.Companion.com.Sharp.Companion.ui.activity.SplashScreenActivity'
+2022-07-11 19:06:44:698 [ADB] Getting focused package and activity
+2022-07-11 19:06:44:698 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:44:866 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:44:866 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:45:376 [ADB] Getting focused package and activity
+2022-07-11 19:06:45:376 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:45:433 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:45:433 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:45:939 [ADB] Getting focused package and activity
+2022-07-11 19:06:45:939 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:45:985 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:45:985 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:46:498 [ADB] Getting focused package and activity
+2022-07-11 19:06:46:498 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:46:545 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:46:545 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:47:046 [ADB] Getting focused package and activity
+2022-07-11 19:06:47:046 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:47:089 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:47:089 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:47:593 [ADB] Getting focused package and activity
+2022-07-11 19:06:47:593 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:47:638 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:47:639 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:48:139 [ADB] Getting focused package and activity
+2022-07-11 19:06:48:139 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:48:187 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:48:187 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:48:700 [ADB] Getting focused package and activity
+2022-07-11 19:06:48:700 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:48:746 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:48:746 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:49:259 [ADB] Getting focused package and activity
+2022-07-11 19:06:49:259 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:49:304 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:49:304 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:49:806 [ADB] Getting focused package and activity
+2022-07-11 19:06:49:806 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:49:851 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:49:851 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:50:355 [ADB] Getting focused package and activity
+2022-07-11 19:06:50:355 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:50:398 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:50:398 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:50:902 [ADB] Getting focused package and activity
+2022-07-11 19:06:50:902 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:50:946 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:50:946 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:51:450 [ADB] Getting focused package and activity
+2022-07-11 19:06:51:451 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:51:497 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:51:497 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:51:997 [ADB] Getting focused package and activity
+2022-07-11 19:06:51:997 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:52:042 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:52:042 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:52:549 [ADB] Getting focused package and activity
+2022-07-11 19:06:52:549 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:52:593 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:52:593 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:53:097 [ADB] Getting focused package and activity
+2022-07-11 19:06:53:097 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:53:141 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:53:141 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:53:641 [ADB] Getting focused package and activity
+2022-07-11 19:06:53:641 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:53:692 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:53:692 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:54:201 [ADB] Getting focused package and activity
+2022-07-11 19:06:54:201 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:54:250 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:54:250 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:54:764 [ADB] Getting focused package and activity
+2022-07-11 19:06:54:764 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:54:807 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:54:807 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:55:312 [ADB] Getting focused package and activity
+2022-07-11 19:06:55:312 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:55:359 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:55:359 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:55:864 [ADB] Getting focused package and activity
+2022-07-11 19:06:55:864 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:55:919 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:55:920 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:56:425 [ADB] Getting focused package and activity
+2022-07-11 19:06:56:425 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:56:479 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:56:479 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:56:985 [ADB] Getting focused package and activity
+2022-07-11 19:06:56:985 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:57:035 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:57:035 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:57:547 [ADB] Getting focused package and activity
+2022-07-11 19:06:57:547 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:57:590 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:57:591 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:58:097 [ADB] Getting focused package and activity
+2022-07-11 19:06:58:097 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:58:140 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:58:140 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:58:645 [ADB] Getting focused package and activity
+2022-07-11 19:06:58:645 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:58:688 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:58:689 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:59:196 [ADB] Getting focused package and activity
+2022-07-11 19:06:59:196 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:59:241 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:59:242 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:06:59:746 [ADB] Getting focused package and activity
+2022-07-11 19:06:59:747 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:06:59:793 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:06:59:794 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:07:00:295 [ADB] Getting focused package and activity
+2022-07-11 19:07:00:296 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:07:00:340 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:07:00:341 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:07:00:852 [ADB] Getting focused package and activity
+2022-07-11 19:07:00:852 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:07:00:897 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:07:00:897 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:07:01:403 [ADB] Getting focused package and activity
+2022-07-11 19:07:01:403 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:07:01:448 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:07:01:448 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:07:01:952 [ADB] Getting focused package and activity
+2022-07-11 19:07:01:952 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:07:01:997 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:07:01:997 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:07:02:499 [ADB] Getting focused package and activity
+2022-07-11 19:07:02:499 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:07:02:542 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:07:02:542 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:07:03:044 [ADB] Getting focused package and activity
+2022-07-11 19:07:03:044 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:07:03:089 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:07:03:089 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:07:03:603 [ADB] Getting focused package and activity
+2022-07-11 19:07:03:603 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:07:03:648 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:07:03:648 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:07:04:153 [ADB] Getting focused package and activity
+2022-07-11 19:07:04:153 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:07:04:195 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:07:04:195 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:07:04:699 [ADB] Getting focused package and activity
+2022-07-11 19:07:04:700 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-11 19:07:04:746 [ADB] Found package: 'com.Sharp.Companion' and fully qualified activity name : 'com.Sharp.Companion.ui.activity.WelcomeActivity'
+2022-07-11 19:07:04:746 [ADB] Incorrect package and activity. Retrying.
+2022-07-11 19:07:04:746 [UiAutomator2] Deleting UiAutomator2 session
+2022-07-11 19:07:04:746 [UiAutomator2] Deleting UiAutomator2 server session
+2022-07-11 19:07:04:746 [WD Proxy] Matched '/' to command name 'deleteSession'
+2022-07-11 19:07:04:747 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:8211/wd/hub/session/68cda7d9-9063-44a0-be83-300f7213e628] with no body
+2022-07-11 19:07:04:754 [WD Proxy] Got response with status 200: {"sessionId":"68cda7d9-9063-44a0-be83-300f7213e628","value":null}
+2022-07-11 19:07:04:754 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.Sharp.Companion'
+2022-07-11 19:07:04:902 [Logcat] Stopping logcat capture
+2022-07-11 19:07:04:908 [ADB] Removing forwarded port socket connection: 8211 
+2022-07-11 19:07:04:908 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp:8211'
+2022-07-11 19:07:04:939 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2022-07-11 19:07:04:939 [ADB] Running 'C:\Users\prince\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2022-07-11 19:07:05:106 [BaseDriver] Event 'newSessionStarted' logged at 1657566425106 (15:07:05 GMT-0400 (Eastern Daylight Saving Time))
+2022-07-11 19:07:05:107 [W3C] Encountered internal error running command: Error: Cannot start the 'com.Sharp.Companion' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.Sharp.Companion.ui.activity.SplashScreenActivity' or 'com.Sharp.Companion.com.Sharp.Companion.ui.activity.SplashScreenActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+2022-07-11 19:07:05:107 [W3C]     at ADB.startApp (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-adb\lib\tools\apk-utils.js:179:11)
+2022-07-11 19:07:05:107 [W3C]     at AndroidUiautomator2Driver.ensureAppStarts (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:564:7)
+2022-07-11 19:07:05:107 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:431:7)
+2022-07-11 19:07:05:107 [W3C]     at AndroidUiautomator2Driver.createSession (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:229:7)
+2022-07-11 19:07:05:107 [W3C]     at AppiumDriver.createSession (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\lib\appium.js:387:35)
+2022-07-11 19:07:05:110 [HTTP] <-- POST /session 500 25743 ms - 1559
+2022-07-11 19:07:05:110 [HTTP] 
+2022-07-11 19:07:05:489 [Instrumentation] .
+2022-07-11 19:07:05:501 [Instrumentation] Time: 24.054
+2022-07-11 19:07:05:501 [Instrumentation] 
+2022-07-11 19:07:05:501 [Instrumentation] OK (1 test)
+2022-07-11 19:07:05:948 [Instrumentation] The process has exited with code 0
+2022-07-11 19:07:05:969 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:55:25)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston-transport\index.js:103:17)
+    at doWrite (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at addChunk (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)
+2022-07-11 19:07:05:975 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:55:25)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:51:25)
+    at Console._write (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston-transport\index.js:103:17)
+    at doWrite (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at addChunk (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)
+2022-07-11 19:07:05:981 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:55:25)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:51:25)
+    at Console._write (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston-transport\index.js:103:17)
+    at doWrite (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at addChunk (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)
+2022-07-11 19:07:05:986 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:55:25)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:51:25)
+    at Console._write (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston-transport\index.js:103:17)
+    at doWrite (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at addChunk (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (D:\Workspace\Tido\Android QA Automation\Android UI Testing\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)
